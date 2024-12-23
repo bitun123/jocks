@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100vw;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+}
+.jocks{
+    width: 60%;
+    height: 70%;
+    background: #ebcde6;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 40px;
+}
+.jocks>img{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+object-fit: cover;
+}
+.jocks>h1{
+  text-align: center;
+    width: fit-content;
+    /* height: 10px; */
+font-size: 1.8vw;
+
+}
+.btn{
+    width: 5vw;
+    height: 10%;
+    font-size: 2vw;
+    background: #b4f8cc;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #8bc34a;
+}
